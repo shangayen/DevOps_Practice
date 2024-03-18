@@ -1,4 +1,4 @@
-for num in range(6):
+for num in range(5):
    print(num)
 
 
