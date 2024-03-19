@@ -1,9 +1,19 @@
 pipeline{
     agent any
     stages{
-        stage("Hello"){
+        stage("Build"){
             steps{
-                echo 'Welcome to the multi branch pipeline'
+                echo 'Building the application'
+            }
+        }
+        stage("Test"){
+            steps{
+                echo 'Testing the application'
+            }
+        }
+         stage("Deploy"){
+            steps{
+                echo 'Testing the application'
             }
         }
     }
